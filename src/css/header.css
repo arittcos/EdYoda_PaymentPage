@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+}
+
+.headerContainer {
+  padding: 24px 80px;
+  height: 72px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.siteName {
+  font-weight: 900;
+  font-size: 38px;
+  letter-spacing: 0.03em;
+  background: linear-gradient(90.72deg, #0096ff 42.18%, #0048ff 93.77%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.leftHeaderItems,
+.rightHeaderItems {
+  display: flex;
+  align-items: center;
+}
+
+.courses {
+  margin-left: 64px;
+}
+
+.courses svg {
+  margin-left: 18px;
+}
+
+.programs {
+  margin-left: 70px;
+}
+
+.programs svg {
+  margin-left: 18px;
+}
+
+.rightHeaderItems svg {
+  margin-right: 67px;
+}
+
+.login {
+  margin-right: 64px;
+}
+
+.joinNow {
+  padding: 10px 42px;
+  background-image: linear-gradient(to right, #0096ff, #0048ff);
+  border-radius: 52px;
+  color: #ffffff;
+}

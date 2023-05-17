@@ -1,0 +1,397 @@
+* {
+  box-sizing: border-box;
+}
+
+.paymentPageContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.pageBody {
+  width: 100%;
+  padding: 0px 80px;
+  padding-bottom: 80px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url("../images/Back_Ground.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pageBodyLeftItems {
+  margin-top: 70px;
+}
+
+.pageBodyLeftItemsSomeText {
+  font-size: 36px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.lineThrough {
+  color: #ffffff;
+}
+
+strike {
+  color: #ff0000;
+}
+
+.colorBl {
+  color: #0096ff;
+}
+
+.courseFacility {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.courseFacilities {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.courseFacilities div {
+  margin-left: 40px;
+}
+
+.pageBodyRightItems {
+  margin-top: 72px;
+}
+
+.paymentOptions {
+  background-color: #ffffff;
+  border-radius: 8px;
+  float: right;
+  padding: 32px 24px;
+}
+
+.paymentOptionsHead {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.signUpContainer,
+.subscribeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUpRound,
+.subscribeRound {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background-color: #0096ff;
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paymentOptionsHeadText {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 28px;
+  text-align: center;
+}
+
+.subscriptionPlan {
+  width: 501px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 16px;
+  border: 2px solid #bebebe;
+  border-radius: 4px;
+  margin-top: 16px;
+  position: relative;
+  cursor: pointer;
+}
+
+.subscriptionPlanOne {
+  margin-top: 28px;
+  background-color: #e7e7e7;
+}
+
+.bg-grey {
+  background-color: #e7e7e7;
+}
+
+.subscriptionPlanOneSelectedOuter {
+  width: 26.67px;
+  height: 26.67px;
+  border-radius: 50%;
+  border: 2px solid #bebebe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscriptionPlanOneSelectedInner {
+  width: 16px;
+  height: 16px;
+  background-color: #bebebe;
+  border-radius: 50%;
+}
+
+.subscriptionPlanOneText {
+  margin-left: 14.67px;
+  font-weight: 600;
+  color: #bebebe;
+  font-family: "Roboto";
+}
+
+.subscriptionPlanTwoSelectOuter {
+  width: 26.67px;
+  height: 26.67px;
+  background-color: #47ba68;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscriptionPlanTwoSelectOuter i {
+  color: #ffffff;
+}
+
+.subscriptionPlanTwo {
+  background-color: #d7eddd;
+  border: 2px solid #47ba68;
+}
+
+.subscriptionPlanThreeSelectOuter {
+  width: 26.67px;
+  height: 26.67px;
+  border-radius: 50%;
+  border: 2px solid #bebebe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscriptionFeeContainer {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  justify-content: space-between;
+  border-top: 2px solid #bebebe;
+  margin-top: 24px;
+  font-family: "Roboto";
+}
+
+.subscriptionFeePrice {
+  font-weight: 500;
+}
+
+.limitedTimeOfferContainer {
+  width: 501px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 16px;
+  position: relative;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(
+      rgba(222, 67, 19, 1),
+      rgba(222, 67, 19, 1),
+      rgba(222, 67, 19, 1),
+      rgba(222, 68, 20, 1),
+      rgba(223, 69, 21, 1),
+      rgba(223, 72, 22, 1),
+      rgba(224, 75, 24, 1),
+      rgba(225, 80, 27, 1),
+      rgba(227, 86, 31, 1),
+      rgba(229, 94, 36, 1),
+      rgba(231, 104, 43, 1),
+      rgba(235, 117, 51, 1),
+      rgba(238, 132, 60, 1),
+      rgba(243, 149, 71, 1),
+      rgba(248, 169, 84, 1),
+      rgba(254, 193, 99, 1)
+    )
+    1;
+  background: linear-gradient(
+    135deg,
+    rgba(222, 67, 19, 0.2) 0%,
+    rgba(222, 67, 19, 0.2) 0.75%,
+    rgba(222, 67, 19, 0.2) 2.92%,
+    rgba(222, 68, 20, 0.2) 6.37%,
+    rgba(223, 69, 21, 0.2) 10.97%,
+    rgba(223, 72, 22, 0.2) 16.59%,
+    rgba(224, 75, 24, 0.2) 23.1%,
+    rgba(225, 80, 27, 0.2) 30.37%,
+    rgba(227, 86, 31, 0.2) 38.27%,
+    rgba(229, 94, 36, 0.2) 46.66%,
+    rgba(231, 104, 43, 0.2) 55.41%,
+    rgba(235, 117, 51, 0.2) 64.39%,
+    rgba(238, 132, 60, 0.2) 73.47%,
+    rgba(243, 149, 71, 0.2) 82.52%,
+    rgba(248, 169, 84, 0.2) 91.41%,
+    rgba(254, 193, 99, 0.2) 100%
+  );
+}
+
+.limitedTimeContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.limitedTimeOffer {
+  color: #de4313;
+  font-weight: 600;
+  font-family: "Roboto";
+}
+
+.limitedTimeOfferPrice {
+  font-family: "Roboto";
+  font-weight: 600;
+}
+
+.totalBillContainer {
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.totalBill span {
+  font-weight: 600;
+}
+
+.totalBillPrice {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cancelPrcdToPayBtnContainer {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+
+.cancelBtn {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 10px 42px;
+  border: 2px solid #de4313;
+  font-weight: 700;
+  color: #de4313;
+}
+
+.proceedToPayBtn {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #47ba68;
+  padding: 10px 42px;
+  font-weight: 700;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.bottomImg {
+  margin-top: 28px;
+}
+
+.subscriptionPlanThreeSubsDur {
+  margin-left: 14.67px;
+  font-weight: 600;
+  font-family: "Roboto";
+}
+
+.subsPlnTotalPerMnth {
+  margin-left: auto;
+}
+
+.subsPlnTotalContainer {
+  display: flex;
+  align-items: center;
+}
+
+.subsPlnPerMnthContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.subsPlnTotal {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "Roboto";
+}
+
+.subsPlnTotalPrice {
+  font-family: "Roboto";
+  font-weight: 600;
+  margin-left: 8px;
+}
+
+.subsPlnPerMnthPrice {
+  font-size: 12px;
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.subsPlnPerMnth {
+  font-size: 10px;
+  margin-left: 8px;
+  font-weight: 500;
+  color: #bebebe;
+}
+
+.colorGrey {
+  color: #bebebe;
+}
+
+.subsBadge {
+  position: absolute;
+  width: 121px;
+  height: 16px;
+  top: 0;
+  left: 62px;
+  background-color: #47ba68;
+  font-size: 12px;
+  color: #ffffff;
+  font-family: "Roboto";
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+
+.disBadge {
+  background-color: #f77171;
+}
+
+.offerValidContainer {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.offerValid {
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Roboto";
+  color: #de4313;
+  margin-left: 10px;
+}
